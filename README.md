@@ -19,7 +19,13 @@ Embedded server.
 
 	php -S localhost:8080 -t public/index.php
 
+### In your browser
 
+Insert
+	
+	localhost:8080
+
+####Ready now just have fun.
 
 
 
