@@ -15,9 +15,9 @@
 ### Run Project
 Navigate to the directory "lumenExample" at command prompt.
 
-Embedded server.
+Web server.
 
-	php -S localhost:8080 -t public/index.php
+	php -S localhost:8080 public/index.php
 
 ### In your browser
 
