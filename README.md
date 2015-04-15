@@ -1,5 +1,6 @@
 # Studies micro-framework Lumen by Laravel
-## [Lumen](http://lumen.laravel.com/)
+## View the Lumen project
+- [Lumen](http://lumen.laravel.com/)
 
 ### Serve Requirements
 - PHP >= 5.4
@@ -13,7 +14,9 @@
 
 ### Run Project
 Navigate to the directory "lumenExample" at command prompt.
+
 Embedded server.
+
 	php -S localhost:8080 -t public/index.php
 
 
