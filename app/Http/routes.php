@@ -11,6 +11,8 @@
 |
 */
 
-$app->get('/', function() use ($app) {
-    return $app->welcome();
-});
+//home page sistema alunos
+$app->get('/', [
+    'as' => 'index',
+    'uses' => '\App\Http\Controllers\UserController@index',
+]);
