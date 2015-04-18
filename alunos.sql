@@ -29,11 +29,11 @@ CREATE TABLE `alunos` (
   `data_nascimento` date NOT NULL,
   `idade` int(11) NOT NULL,
   `serie` int(11) NOT NULL,
-  `classe` varchar(5) NOT NULL,
+  `clase` varchar(5) NOT NULL,
   `data_cadastro` date NOT NULL,
   `hora_cadastro` time NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,6 +42,7 @@ CREATE TABLE `alunos` (
 
 LOCK TABLES `alunos` WRITE;
 /*!40000 ALTER TABLE `alunos` DISABLE KEYS */;
+INSERT INTO `alunos` VALUES (1,'Rafael','Souza','2000-04-01',15,7,'A','2015-04-16','22:28:00'),(2,'Michele','Cruz','2000-04-01',15,7,'A','2015-04-16','22:28:00');
 /*!40000 ALTER TABLE `alunos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-04-16 22:17:17
+-- Dump completed on 2015-04-18 12:35:59
