@@ -1,13 +1,7 @@
-/nbproject
-
-/bootstrap/compiled.php
+/lumen.log
 /vendor
+.env
 
-composer.phar
+nbproject
 composer.lock
-
-.env.*.php
-.env.php
-.DS_Store
-
-Thumbs.db
+.env.example

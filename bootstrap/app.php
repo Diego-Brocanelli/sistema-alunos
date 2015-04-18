@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-Dotenv::load(__DIR__.'/../');
+// Dotenv::load(__DIR__.'/../');
 
 /*
 |--------------------------------------------------------------------------
@@ -33,13 +33,13 @@ $app = new Laravel\Lumen\Application;
 */
 
 $app->singleton(
-	'Illuminate\Contracts\Debug\ExceptionHandler',
-	'App\Exceptions\Handler'
+    'Illuminate\Contracts\Debug\ExceptionHandler',
+    'App\Exceptions\Handler'
 );
 
 $app->singleton(
-	'Illuminate\Contracts\Console\Kernel',
-	'App\Console\Kernel'
+    'Illuminate\Contracts\Console\Kernel',
+    'App\Console\Kernel'
 );
 
 /*
