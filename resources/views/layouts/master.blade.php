@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta content="Content-Type: text/html; charset=utf-8" />
+        <link rel="icon" type="image/png" href="/images/icons/favicons/favicon-32x32.png" sizes="32x32" />
         <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/app.css">
         <title>App Name - @yield('title')</title>
