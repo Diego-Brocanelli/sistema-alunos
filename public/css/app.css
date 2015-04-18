@@ -9,3 +9,8 @@
     margin-top:-20px;
     margin-bottom: 25px;
 }
+
+table thead tr{
+    background-color:#b02f04;
+    color:#fff;
+}
