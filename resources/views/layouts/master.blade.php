@@ -1,6 +1,5 @@
 <html>
     <head>
-        <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/app.css">
         <title>App Name - @yield('title')</title>
