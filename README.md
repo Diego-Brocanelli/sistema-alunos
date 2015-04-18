@@ -1,6 +1,6 @@
 # Studies micro-framework Lumen by Laravel
 ## View the Lumen project
-- [Lumen](http://lumen.laravel.com/)
+- [Lumen website](http://lumen.laravel.com/)
 
 ### Serve Requirements
 - PHP >= 5.4
