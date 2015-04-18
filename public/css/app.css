@@ -1,0 +1,11 @@
+*{
+    font-family:Tahoma;
+    font-size: 18px;
+}
+.page-header{
+    margin-bottom: 5%;
+}
+.jumbotron h4{
+    margin-top:-20px;
+    margin-bottom: 25px;
+}
