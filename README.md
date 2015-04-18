@@ -12,20 +12,40 @@
 ### Create a diretory
 	/lumiemExemple (Or create the name of your preference).
 
-### Run Project
-Navigate to the directory "lumenExample" at command prompt.
+###Configure your project
 
-Web server.
+The vhost configuration
 
-	php -S localhost:8080 public/index.php
+    <VirtualHost *:80>
+        ServerName yourdomain.dev
+        DocumentRoot PATH_TO_PROJECT/public
+        SetEnv APPLICATION_ENV "development"
+        SetEnv PROJECT_ROOT "PATH_TO_PROJECT" 
+        <Directory PATH_TO_PROJECT/public>
+            DirectoryIndex index.php
+            AllowOverride All
+            Order allow,deny
+            Allow from all
+        </Directory>
+    </VirtualHost>
 
-### In your browser
+Register your new vhost
+    127.0.0.1 domain.dev
 
-Insert
-	
-	localhost:8080
+    Obs
+        Restart your PHP, after finishing the settings.
 
-####Ready now just have fun.
+###In your browser
+    Insert
+        yourdomain.dev
+
+Ready, now just have fun.
+
+###Routes of application
+    Home
+        '/'
+    Select
+        '/alunos/pesquisar'
 
 
 
