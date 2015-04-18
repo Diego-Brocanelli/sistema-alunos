@@ -5,12 +5,14 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 
 /**
- * Description of UserController
- *
- * @author Diego
+ * @author Diego Brocanelli <diegoweb01@gmail.com>
  */
 class UserController extends Controller
 {
+    /**
+     * REsponsável pela view home do sistema
+     * @return View
+     */
     public function index()
     {
         return view('alunos.index', [
@@ -20,6 +22,13 @@ class UserController extends Controller
             'btnClass'         => 'btn btn-primary btn-lg',
             'linkPesquisar'    => '/alunos/pesquisar',
             'labelPequisar'    => 'Pesquisar Alunos',
+        ]);
+    }
+    
+    public function select()
+    {
+        return view('alunos.select',[
+            'viewTitle' => 'Pesquisa de alunos',
         ]);
     }
 }
