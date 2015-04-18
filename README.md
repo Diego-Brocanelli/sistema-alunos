@@ -32,11 +32,10 @@ The vhost configuration
 Register your new vhost
     127.0.0.1 domain.dev
 
-    Obs
         Restart your PHP, after finishing the settings.
 
 ###In your browser
-    Insert
+    
         yourdomain.dev
 
 Ready, now just have fun.
