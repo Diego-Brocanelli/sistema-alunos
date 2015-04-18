@@ -16,3 +16,8 @@ $app->get('/', [
     'as' => 'index',
     'uses' => '\App\Http\Controllers\UserController@index',
 ]);
+//pequisa de alunos
+$app->get('/alunos/pesquisar', [
+    'as' => 'select',
+    'uses' => '\App\Http\Controllers\UserController@select',
+]);
