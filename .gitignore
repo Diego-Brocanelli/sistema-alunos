@@ -1,5 +1,6 @@
 /lumen.log
 /vendor
+.env
 .env.example
 composer.lock
 readme.md
